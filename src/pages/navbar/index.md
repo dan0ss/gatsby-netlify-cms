@@ -1,5 +1,7 @@
 ---
 templateKey: navbar
+logo: 
+  image: /img/logo.png
 menuItems:
   - label: home
     linkType: internal
