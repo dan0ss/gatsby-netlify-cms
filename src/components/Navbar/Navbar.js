@@ -2,10 +2,14 @@ import React from "react";
 
 import "./styles.scss";
 import CustomLink from "../CustomLink";
+import logo from '/img/favicon.png'; // with import
 
 export const NavbarTemplate = ({ data }) => (
   <nav className="navbar">
     <div className="container  navbar-container">
+      <div id="logo">
+      <img src={logo} />
+      </div>
       {data.menuItems.length > 0 && (
         <ul className="navbar-menu">
           {data.menuItems.map(menuItem => (
