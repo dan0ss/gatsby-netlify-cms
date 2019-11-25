@@ -8,7 +8,7 @@ export const NavbarTemplate = ({ data }) => (
   <nav className="navbar">
     <div className="container  navbar-container">
       <div id="logo">
-      <img src={logo} />
+      <img src={home.logo.image} />
       </div>
       {data.menuItems.length > 0 && (
         <ul className="navbar-menu">
