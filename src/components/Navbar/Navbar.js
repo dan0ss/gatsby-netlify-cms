@@ -3,13 +3,13 @@ import React from "react";
 import "./styles.scss";
 import CustomLink from "../CustomLink";
 
-import logo from './img/logo.svg'; // with import
+import logo from "./img/logo.svg"; // with import
 
 export const NavbarTemplate = ({ data }) => (
   <nav className="navbar">
     <div className="container  navbar-container">
       <div id="logo">
-      <img src={logo} />
+      <img src={logo} width="300px" height="auto" />
       </div>
       {data.menuItems.length > 0 && (
         <ul className="navbar-menu">
