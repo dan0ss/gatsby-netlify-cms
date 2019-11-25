@@ -3,6 +3,8 @@ import React from "react";
 import "./styles.scss";
 import CustomLink from "../CustomLink";
 
+import logo from './img/logo.jpeg'; // with import
+
 export const NavbarTemplate = ({ data }) => (
   <nav className="navbar">
     <div className="container  navbar-container">
