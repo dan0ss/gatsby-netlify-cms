@@ -2,7 +2,10 @@
 
 .navbar {
   background-color: $background-dark;
-  height: $navbar-height;
+  height: 48px;
+  width: auto;
+
+
 
   &-container {
     display: flex;
